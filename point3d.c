@@ -26,6 +26,7 @@ int main(){
 	scanf("%d",&p1.y);
 	printf("Enter z value of point one:");
 	scanf("%d",&p1.z);
+	printf("Point one=(%d,%d,%d)",p1.x,p1.y,p1.z);
 	
 	printf("\nEnter x value of point two:");
 	scanf("%d",&p2.x);
@@ -33,6 +34,7 @@ int main(){
 	scanf("%d",&p2.y);
 	printf("Enter z value of point two:");
 	scanf("%d",&p2.z);
+	printf("Second one=(%d,%d,%d)",p2.x,p2.y,p2.z);
 	
 	int sum_x=p1.x-p2.x;
 	int sum_y=p1.y-p2.y;
